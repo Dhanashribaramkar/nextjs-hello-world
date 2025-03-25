@@ -62,6 +62,6 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A9BFEE2A19DE42A6B97E72C2FE367788 }}
-          environmentVariables: |
+          environmentVariables:
             NEXT_PUBLIC_APP_NAME:'NextJSApp'
  
